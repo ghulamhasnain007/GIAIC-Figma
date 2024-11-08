@@ -12,7 +12,7 @@ export default function Navbar() {
         {/* <span className="font-bold tracking-wide text-xs text-gray-500">NAME / LOGO</span> */}
       </div>
 
-      {/* Navigation Links */}
+      
       <ul className="flex space-x-12 text-sm font-semibold tracking-widest text-gray-700">
         <li className="relative group">
           <Link href="/" className="hover:text-gray-900 transition">

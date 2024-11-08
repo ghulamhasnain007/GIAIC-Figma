@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import photo1 from '../../../public/gallery/photo-1.png'
 import photo2 from '../../../public/gallery/photo-2.png'
 import photo3 from '../../../public/gallery/photo-3.png'
@@ -16,7 +15,6 @@ import Image from 'next/image'
 export default function page() {
   return (
     <div className='m-40'>
-        {/* <Navbar/> */}
         <div>
             <h1 className='text-8xl text-gray-400 text-thin'>Photo</h1>
             <h1 className='text-8xl text-black text-bold'>Gallery</h1>
